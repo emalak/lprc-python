@@ -6,7 +6,7 @@ import search_pb2 as search__pb2
 
 
 class LandmarkSearchStub(object):
-    """Missing associated documentation comment in .proto file."""
+    """Missing associated documentation comment in .lrpc file."""
 
     def __init__(self, channel):
         """Constructor.
@@ -27,16 +27,16 @@ class LandmarkSearchStub(object):
 
 
 class LandmarkSearchServicer(object):
-    """Missing associated documentation comment in .proto file."""
+    """Missing associated documentation comment in .lrpc file."""
 
     def AddLandmark(self, request, context):
-        """Missing associated documentation comment in .proto file."""
+        """Missing associated documentation comment in .lrpc file."""
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
     def Search(self, request, context):
-        """Missing associated documentation comment in .proto file."""
+        """Missing associated documentation comment in .lrpc file."""
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
@@ -62,7 +62,7 @@ def add_LandmarkSearchServicer_to_server(servicer, server):
 
  # This class is part of an EXPERIMENTAL API.
 class LandmarkSearch(object):
-    """Missing associated documentation comment in .proto file."""
+    """Missing associated documentation comment in .lrpc file."""
 
     @staticmethod
     def AddLandmark(request,
